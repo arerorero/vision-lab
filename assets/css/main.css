@@ -35,6 +35,19 @@
 		display: block;
 	}
 
+	.video-responsive {
+    width: 30%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    max-width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .video-responsive {
+      width: 100%;
+    }
+  }
+
 	body {
 		line-height: 1;
 	}
