@@ -2959,11 +2959,11 @@ input[type="button"].alt,
   font-size: 18px; /* Tamanho da fonte legível e impactante */
 
   /* Estilo do Texto */
-  font-family: 'Helvetica', 'Arial', sans-serif; /* Fonte limpa e universal */
+  font-family: "Helvetica", "Arial", sans-serif; /* Fonte limpa e universal */
   font-weight: bold; /* Texto em negrito para chamar atenção */
   text-align: center;
   text-decoration: none; /* Remove o sublinhado caso use a tag <a> */
-  
+
   /* Bordas e Sombra */
   border: none; /* Remove a borda padrão do navegador */
   border-radius: 12px; /* Os cantos arredondados que você pediu! */
@@ -2972,7 +2972,7 @@ input[type="button"].alt,
   /* Comportamento */
   cursor: pointer; /* Muda o cursor para a "mãozinha" para indicar que é clicável */
   display: inline-block; /* Garante que o padding e outras propriedades funcionem corretamente */
-  
+
   /* Animação */
   transition: all 0.3s ease; /* Efeito de transição suave para todas as alterações */
 }
@@ -3712,7 +3712,7 @@ body.landing #main {
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
-    display: block;
+    display: none;
     height: 44px;
     left: 0;
     position: fixed;
@@ -3774,7 +3774,7 @@ body.landing #main {
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
-    display: block;
+    display: none;
     height: 100%;
     left: 0;
     overflow-y: auto;
