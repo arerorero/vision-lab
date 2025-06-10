@@ -2949,6 +2949,50 @@ input[type="button"].alt,
   color: #777;
 }
 
+.btn-comprar {
+  /* Cores */
+  background-color: #2ecc71; /* Um verde vibrante e moderno */
+  color: white; /* Texto branco para alto contraste */
+
+  /* Dimensões e Espaçamento */
+  padding: 15px 32px; /* Espaçamento interno que torna o botão "respirável" e fácil de clicar */
+  font-size: 18px; /* Tamanho da fonte legível e impactante */
+
+  /* Estilo do Texto */
+  font-family: 'Helvetica', 'Arial', sans-serif; /* Fonte limpa e universal */
+  font-weight: bold; /* Texto em negrito para chamar atenção */
+  text-align: center;
+  text-decoration: none; /* Remove o sublinhado caso use a tag <a> */
+  
+  /* Bordas e Sombra */
+  border: none; /* Remove a borda padrão do navegador */
+  border-radius: 12px; /* Os cantos arredondados que você pediu! */
+  box-shadow: 0 4px 15px 0 rgba(46, 204, 113, 0.75); /* Sombra que dá profundidade e destaca o botão */
+
+  /* Comportamento */
+  cursor: pointer; /* Muda o cursor para a "mãozinha" para indicar que é clicável */
+  display: inline-block; /* Garante que o padding e outras propriedades funcionem corretamente */
+  
+  /* Animação */
+  transition: all 0.3s ease; /* Efeito de transição suave para todas as alterações */
+}
+
+/* --- Efeito ao passar o mouse (Hover) --- */
+/* Deixa o botão mais interativo e atraente */
+.btn-comprar:hover {
+  background-color: #27ae60; /* Verde um pouco mais escuro ao passar o mouse */
+  box-shadow: 0 6px 20px 0 rgba(46, 204, 113, 0.85); /* Sombra mais forte para um efeito "lift-up" (elevar) */
+  transform: translateY(-2px); /* Move o botão levemente para cima */
+}
+
+/* --- Efeito ao clicar no botão (Active) --- */
+/* Dá um feedback visual imediato ao usuário */
+.btn-comprar:active {
+  background-color: #229954; /* Verde ainda mais escuro, simulando o "pressionar" */
+  box-shadow: 0 2px 10px 0 rgba(46, 204, 113, 0.75); /* Sombra menor */
+  transform: translateY(0); /* Retorna à posição original */
+}
+
 input[type="submit"].alt:hover,
 input[type="reset"].alt:hover,
 input[type="button"].alt:hover,
